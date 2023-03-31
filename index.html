@@ -3,7 +3,7 @@
   <head>
     <!-- metadata -->
     <meta charset="utf-8" />
-    <meta name="description" content="Salary calculator" />
+    <meta name="description" content="Area and circumference of a circle" />
     <meta name="keywords" content="immaculata, ics2o" />
     <meta name="author" content="Santiago Hewett" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,11 +14,11 @@
     <link rel="manifest" href="./fav_index/site.webmanifest" />
     <!-- MDL connector -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-red.min.css"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-pink.min.css" />
     <!-- CSS connector -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Title -->
-    <title>Salary calculator</title>
+    <title>Area and circumference of a circle</title>
   </head>
   <body>
     <!-- JS connector -->
@@ -28,11 +28,11 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">The amount of money you receive after taxes</span>
+          <span class="mdl-layout-title">Area and Circumference of a Circle</span>
         </div>
       </header>
       <!-- Images -->
-        <style>
+      <style>
         * {
           box-sizing: border-box;
         }
@@ -49,43 +49,44 @@
           clear: both;
           display: table;
         }
-        </style>
-
-        <!-- Soccer player images -->
-        <div class="row">
-          <div class="column">
-            <img src="./images/Area-of-a-Circle-Formula.jpg" alt="Area" style="width:100%" style="height: 75%;">
-            
-          </div>
-          
-          <div class="column">
-            <img src="./images/circumference-circle-formula.png" alt="Circumference" style="width:100%">
-          </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          
-          
-      <!-- request -->
-      <h5>Enter the radius</h5>
+      </style>
+      
+      <!-- Area image -->
+      <div class="row">
+        <div class="column">
+          <img src="./images/Area-of-a-Circle-Formula.jpg" alt="Area" style="width:100%" style="height: 75%;">
+        </div>
+        
+        <!-- Circumference image -->
+        <div class="column">
+          <img src="./images/circumference-circle-formula.png" alt="Circumference" style="width:100%">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <!-- Statement of what this web page does -->
+        <h4>This web page will be calculating the area and circumference of a circle.</h4>
+        <!-- request -->
+        <h3>Enter the radius:</h3>
         <!-- Radius Textfield -->
         <form action="#">
           Radius:
@@ -95,12 +96,12 @@
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="radius"
-            />
+              />
             <label class="mdl-textfield__label" for="radius">Radius...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-				
+        
         <!-- Raised button to calculate -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
